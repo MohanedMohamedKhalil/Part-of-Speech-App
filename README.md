@@ -110,7 +110,13 @@ after all installations app will be run at   http://localhost:3000
 - Quiz page with seamless UI
   ![](./client-side/images/quiz.png)
 
-- Rank page to show user's rank according to his score
+- When user select wrong answer
+  ![](./client-side/images/wrong.png)
+
+- When user select correct answer
+  ![](./client-side/images/correct.png)
+
+  - Rank page to show user's rank according to his score
   ![](./client-side/images/rank.png)
 
 <!-- ROADMAP -->
@@ -119,7 +125,7 @@ after all installations app will be run at   http://localhost:3000
 
 ## Contact
 
-Mohaned Mohamed - mohanedmohamed41@gmail.com - [LinkendIn](https://www.linkedin.com/in/mohaned-mohamed-khalil/)
+mohanedmohamed41@gmail.com - [LinkendIn](https://www.linkedin.com/in/mohaned-mohamed-khalil/)
 
 <!-- Icons -->
 
