@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  color: #252525;
+  background-color: #f7f2e9 !important;
+  letter-spacing: -1px;
+}
+
+/* Quiz Styling  */
+
+.quiz {
+  border-left: 5px solid #252525;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.options p {
+  background-color: #ccc;
+  padding: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s all;
+  user-select: none;
+}
+
+.options p:hover {
+  background-color: blue;
+  color: white;
+}
+
+.progressBar {
+  width: 100%;
+}

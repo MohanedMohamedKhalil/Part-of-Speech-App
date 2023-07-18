@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Quiz",
+    "dateExported": "2023-07-17T00:28:27.325Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d638ca9b-2ec1-48c3-bca7-db81cd3da062",
+            "colId": "e621629d-c367-44d5-9f60-638d8ef130f1",
+            "containerId": "",
+            "name": "get Rank",
+            "url": "http://localhost:8080/rank",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-16T22:24:05.412Z",
+            "modified": "2023-07-17T00:26:28.762Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"score\": 80\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4e44a5ab-f23c-4f1c-8746-35e2ed98f17b",
+            "colId": "e621629d-c367-44d5-9f60-638d8ef130f1",
+            "containerId": "",
+            "name": "Get Words ",
+            "url": "http://localhost:8080/words",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-17T00:09:40.287Z",
+            "modified": "2023-07-17T00:09:55.742Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
