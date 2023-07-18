@@ -108,7 +108,7 @@ after all installations app will be run at   http://localhost:3000
 
 
 - Quiz page with seamless UI
-  ![](./client-side/images/rank.png)
+  ![](./client-side/images/quiz.png)
 
 - Rank page to show user's rank according to his score
   ![](./client-side/images/rank.png)
